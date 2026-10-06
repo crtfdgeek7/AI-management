@@ -615,34 +615,6 @@ nav {
     padding-right: 10px;
 }
 
-/* .pricing-child:nth-child(1) a:nth-child(7),
-.pricing-child:nth-child(3) a:nth-child(7){
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 16px;
-  font-weight: 400;
-  color: #FFFFFF;
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  outline: none;
-  border-radius: 9999px;
-  text-decoration: none;
-  margin-top: 20px;
-
-  border: 1px solid transparent;
-  background-image: 
-  linear-gradient(#140b22, #140b22),
-  linear-gradient(90deg, #174993 0%, #892CAE 100%);
-
-  linear-gradient(90deg, #3b52ab 0%, #6d28d9 45%, #9333ea 75%, #7e22ce 100%);
-  background-clip: border-box;
-  background-clip: padding-box, border-box;
-
-  transition: all 0.25s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-} */
-
 .pricing-child:nth-child(1) a:nth-child(7) {
     display: block;
     text-align: center;
@@ -664,8 +636,8 @@ nav {
     background-clip: padding-box, border-box;
     background-origin: border-box;
 
-    transition: all 0.25s ease;
-    box-shadow: none;
+    /* transition: all 0.25s ease;
+    box-shadow: none; */
 }
 
 .pricing-child:nth-child(2) {
@@ -726,59 +698,9 @@ nav {
         linear-gradient(90deg, #1f5fd1 0%, #c11fe0 100%);
     background-clip: padding-box, border-box;
     background-origin: border-box;
-
-    transition: all 0.25s ease;
-    box-shadow: none;
+    /* transition: all 0.25s ease;
+    box-shadow: none; */
 }
-
-/* .footer-section {
-    border: 3px solid red;
-    background: linear-gradient(90deg,#28152c 0%,#170d20 50%,#050817 70%);
-    display: flex;
-    padding: 50px 300px ;
-}
-.sections {
-    display: flex;
-    gap: 300px;
-}
-.section1 {
-    position: relative;
-    border: 2px solid red;
-    width: 240px;
-}
-.section1 span {
-    position: absolute;
-    top: 3px;
-    color: #D9D0F0;
-    font-size: 16px;
-    font-weight: 700;
-}
-.section1 p {
-    color: #D9D0F0;
-    font-size: 14px;
-    font-weight: 400;
-}
-.section2 {
-    display: flex;
-    gap: 20px;
-}
-.section2-child {
-    border: 2px solid red;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.section2-child p {
-    color: #D9D0F0;
-    font-size: 18px;
-    font-weight: 400;
-}
-.section2 a {
-    display: flex;
-    color: #D9D0F0;
-    text-decoration: none;
-} */
 
 footer {
     background: linear-gradient(90deg,#28152c 0%,#170d20 50%,#050817 70%);
@@ -797,11 +719,11 @@ footer {
     width: 240px;
 }
 
-.child1-header {
+.child-header {
     display: flex;
 }
 
-.child1-header span {
+.child-header span {
     padding-top: 5px;
     font-weight: 700;
     font-size: 20px;
@@ -809,50 +731,54 @@ footer {
     padding-left: 5px;
 }
 
-.footer-child:nth-child(1)>p {
+.footer-child p {
+    /* border: 2px solid red; */
     padding-top: 10px;
     padding-bottom: 5px;
 }
 
-.child1-anchor {
+.child-anchor {
+    /* border: 2px solid red; */
     display: flex;
-    align-items: center;
-    gap: 12px;
+    flex-direction: row;
     filter: grayscale(0.5) opacity(0.6)
 }
-
-.footer-child:nth-child(2) p,
-.footer-child:nth-child(3) p,
-.footer-child:nth-child(4) p,
-.footer-child:nth-child(5) p {
-    font-weight: 700;
-    font-size: 20px;
-    font-family: "Orbitron", sans-serif;
-    padding-bottom: 25px;
+.f1,.f2,.f3,.f4 {
+    /* border: 2px solid red; */
+    padding: 5px;
+    /* padding-top: 10px;
+    padding-bottom: 5px; */
 }
 
-.footer-anchor a {
-    display: block;
+.footer-child h3 {
+    padding-bottom: 25px;
+}
+.footer-links a {
+    display: flex;
     text-decoration: none;
     color: #9a8e9c;
     padding-bottom: 12px;
 }
-
-.footer-para {
-    border-top: 1px solid #434141;
-    margin-left: 170px;
+hr {
+    border: 1px solid #434141;
+    margin: 0 275px;
+}
+.footer-end {
+    /* border-top: 1px solid #434141; */
+    /* border: 2px solid red; */
+    margin-left: 270px;
     margin-right: 150px;
     padding-bottom: 60px;
 }
 
-.paragraph {
+.footer-end-text {
     padding-top: 5px;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.paragraph p {
+.footer-end-text p {
     font-size: 10px;
     color: #434141;
 }
